@@ -102,6 +102,10 @@ module.exports = withUt({
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
+        primarybutton: 'var(--primarybutton)',
+        primarybuttonhover: 'var(--primarybuttonhover)',
+        secondarybutton: 'var(--secondarybutton)',
+        secondarybuttonhover: 'var(--secondarybuttonhover)',
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',

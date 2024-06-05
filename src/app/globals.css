@@ -20,14 +20,20 @@ B (255 */
 
 @layer base {
   :root {
-    --background: 216 100% 98.04%;
+    --background: 50, 100%, 80%;
     --foreground: 213.6 100% 4.9%;
 
-    --primary: 45 100% 50%;
+    --primary: 50, 100%, 80%;
     --primary-foreground: 0 0% 100%;
 
     --card: 216 100% 98.04%;
     --card-foreground: 213.6 100% 4.9%;
+
+    --primarybutton: #007aaa;
+    --primarybuttonhover: #007aff;
+
+    --secondarybutton : #AAA;
+    --secondarybuttonhover: #666;
 
     --popover: 0 0% 100%;
     --popover-foreground: 213.6 100% 4.9%;
@@ -59,11 +65,17 @@ B (255 */
     /* CSS: .bg-gradient { background: var(--gradient) } */
     --gradient: linear-gradient(to top left, #007adf, #00ecbc);
 
-    --background: 220 65% 3.52%;
+    --background: 216, 18%, 16%;
     --foreground: 220 10% 97.2%;
 
     --muted: 220 50% 13.2%;
     --muted-foreground: 220 10% 54.4%;
+
+    --primarybutton: #EEE;
+    --primarybuttonhover: #aaa;
+
+    --secondarybutton : #76ABAE;
+    --secondarybuttonhover: #34ABAE;
 
     --popover: 220 45% 5.72%;
     --popover-foreground: 220 10% 97.2%;
@@ -74,10 +86,10 @@ B (255 */
     --border: 220 50% 13.2%;
     --input: 220 50% 13.2%;
 
-    --primary: 220 100% 44%;
+    --primary: 216, 18%, 16%;
     --primary-foreground: 220 10% 97.2%;
 
-    --secondary: 220 50% 13.2%;
+    --secondary: 219, 13%, 22%;
     --secondary-foreground: 220 10% 97.2%;
 
     --accent: 220 50% 13.2%;
@@ -98,6 +110,7 @@ B (255 */
     @apply bg-background text-foreground;
   }
 }
+
 
 .dotPattern {
   background-image: radial-gradient(rgb(35, 40, 68) 1px, transparent 1px);
